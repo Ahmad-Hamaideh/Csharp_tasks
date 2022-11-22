@@ -1,0 +1,8 @@
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\22-11\Tasks1-7\Tasks1-7\obj\Debug\Tasks1-7.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\22-11\Tasks1-7\Tasks1-7\obj\Debug\Tasks1-7.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\22-11\Tasks1-7\Tasks1-7\obj\Debug\Tasks1-7.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\22-11\Tasks1-7\Tasks1-7\bin\Debug\Tasks1-7.exe.config
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\22-11\Tasks1-7\Tasks1-7\bin\Debug\Tasks1-7.exe
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\22-11\Tasks1-7\Tasks1-7\bin\Debug\Tasks1-7.pdb
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\22-11\Tasks1-7\Tasks1-7\obj\Debug\Tasks1-7.exe
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\22-11\Tasks1-7\Tasks1-7\obj\Debug\Tasks1-7.pdb
