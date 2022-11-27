@@ -11,7 +11,8 @@ namespace _23_11
         ////////===task 1===//////////
         static void mynum()
         {
-            string[] lol = Console.ReadLine().Split(',');
+            Console.WriteLine("put numper of avreg ");
+            string[] lol = Console.ReadLine().Split(' ');
             int[] num2 = new int[lol.Length];
             int sum = 0;
             for (int i = 0; i < lol.Length; i++)
@@ -26,7 +27,8 @@ namespace _23_11
         /////////=== task 2 === ////////////
         static void cup()
         {
-            string[] cupp = Console.ReadLine().Split(',');
+            Console.WriteLine(" Put a number to get a cube : ");
+            string[] cupp = Console.ReadLine().Split(' ');
             int[] cu = new int[cupp.Length];
             int cu2 = 0;
             for (int i = 0; i < cu.Length; i++)
@@ -79,12 +81,12 @@ namespace _23_11
         static void task(string[] user, string[]pass)
         {
             Console.WriteLine( "User :" );
-
+          string use = Console.ReadLine();
+            string pas = Console.ReadLine();
             for (int i=0; i < user.Length; i++)
             {
-                string use =Console.ReadLine();
-                string pas =Console.ReadLine();
-                if(use == user[i] && pas == pass[i])
+
+                if (use == user[i] && pas == pass[i])
                 {
                     Console.WriteLine("pass ");
                 }
@@ -92,12 +94,13 @@ namespace _23_11
                 {
                     Console.WriteLine("failed");
                 }
+                break;
             }
-         
+           
 
         }
-            //// task 7 
-             static int powr (int i ,int j)
+        //// task 7 
+        static int powr (int i ,int j)
         {
             int sum = i;
             for (int k=1; k<j; k++)
@@ -127,12 +130,13 @@ namespace _23_11
         static void prim()
         {
             int n = Convert.ToInt32(Console.ReadLine());
+
             if (n == 0 || n == 1)
             {
                 Console.WriteLine("false");
             }
 
-            for (int i = 2; i <= n / 2; ++i)
+            for (int i = 2; i <= n/2; i++)
             {
                 if (n % i == 0)
                 {
@@ -150,7 +154,7 @@ namespace _23_11
         ////////////////// task 9 
           static int numperr(string words)
         {
-            int n = 0;
+            int n = 1;
             foreach(char i in words) {
             if(i == ' ')
                 {
@@ -162,47 +166,47 @@ namespace _23_11
         }
         static void Main(string[] args)
         {
-            mynum();  // task 1
-            cup();   //  task 2
-            age();  //   task 3
-            ok();   //    task 4
-            anmail();  //   task 5
-            string[] users = { "ahmad", "ali", "omer" };
-            string[] password = { "222", "245,101" };      // =======> task 6
-            task(users, password);
+            //mynum();  // task 1
+            //cup();   //  task 2
+            //age();  //   task 3
+            //ok();   //    task 4
+            //anmail();  //   task 5
+            //string[] users = { "ahmad", "ali", "omer" };
+            //string[] password = { "111", "245,101" };      // =======> task 6
+            //task(users, password);
 
 
             ////=================== task 7 ==========================
-            Console.WriteLine("======================================= Task 7 ===============");
-            Console.WriteLine("power --->" + "   " + powr(5, 3));
+            //Console.WriteLine("======================================= Task 7 ===============");
+            //Console.WriteLine("power --->" + "   " + powr(5, 3));
 
 
-            ////////////// 8
+            //////////////// 8
 
-            Console.WriteLine("======================== task 8 =============");
-            Console.WriteLine("enter your 1900 - 2024");
-            int leap = Convert.ToInt32(Console.ReadLine());
-          
-                bool yy =leep(leap);
-            if (yy)
-            {
-                Console.WriteLine("leap year");
-            }
-            else
-            {
-                Console.WriteLine("not leap");
-            }
+            //Console.WriteLine("======================== task 8 =============");
+            //Console.WriteLine("enter your 1900 - 2024");
+            //int leap = Convert.ToInt32(Console.ReadLine());
 
-            ////=================== task 9 ==========================
-            Console.WriteLine("======================================= Task 9===============");
+            //bool yy = leep(leap);
+            //if (yy)
+            //{
+            //    Console.WriteLine("leap year");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("not leap");
+            //}
+
+            //////=================== task 9 ==========================
+            //Console.WriteLine("======================================= Task 9===============");
             prim();     // task 9
 
-            ////=================== task 9 ============================
-            Console.WriteLine("======================================= Task 10 ===============");
-            Console.WriteLine("enter sentes to know char in it :");
-            string word = Console.ReadLine();
-            int count = numperr(word);
-            Console.WriteLine($"the numer of chars : {count}");
+            //////=================== task 9 ============================
+            //Console.WriteLine("======================================= Task 10 ===============");
+            //Console.WriteLine("enter sentes to know char in it :");
+            //string word = Console.ReadLine();
+            //int count = numperr(word);
+            //Console.WriteLine($"the numer of chars : {count}");
 
 
 
