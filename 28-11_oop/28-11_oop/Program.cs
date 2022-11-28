@@ -55,6 +55,8 @@ namespace _28_11_oop
             this.pall = pallet;
 
 
+
+
         }
         
     }
