@@ -1,0 +1,8 @@
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\28-11_oop\28-11_oop\bin\Debug\28-11_oop.exe.config
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\28-11_oop\28-11_oop\bin\Debug\28-11_oop.exe
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\28-11_oop\28-11_oop\bin\Debug\28-11_oop.pdb
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\28-11_oop\28-11_oop\obj\Debug\28-11_oop.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\28-11_oop\28-11_oop\obj\Debug\28-11_oop.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\28-11_oop\28-11_oop\obj\Debug\28-11_oop.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\28-11_oop\28-11_oop\obj\Debug\28-11_oop.exe
+C:\Users\Dell\source\repos\Ahmad-Hamaideh\Csharp_tasks\28-11_oop\28-11_oop\obj\Debug\28-11_oop.pdb
