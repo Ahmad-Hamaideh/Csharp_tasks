@@ -44,7 +44,6 @@ namespace _28_11_oop
             Console.WriteLine(make1+ "  "+ year+ "  "+ color1 + "  " + Type1 + "  "+ pall + "  " + price1 + "   " + "  "+ spp);
         }
         public  Car(int year, string carMake, int newSpeed, string Clor, string carType, int carprice, int pallet)
-
         {
             this.year = year;
             this. make1 = carMake;
@@ -53,10 +52,6 @@ namespace _28_11_oop
             this. Type1= carType;
             this.price1 = carprice;
             this.pall = pallet;
-
-
-
-
         }
         
     }
@@ -64,7 +59,6 @@ namespace _28_11_oop
     {
         static void Main(string[] args)
         {
-
             Car c = new Car(2012, "Mercedes-Benz S55 AMG ", 280, "black", "xxx", 57000, 2088888);
             c.start();
             Console.WriteLine();
@@ -77,13 +71,9 @@ namespace _28_11_oop
     }
     public class Car2 : Car
     {
-
         public Car2(int year, string carMake, int newSpeed, string Clor, string carType, int carprice, int pallet):base(year,carMake,newSpeed,Clor,carType,carprice,pallet)
-
         {
         
-
-
         }
     }
 }
