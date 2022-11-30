@@ -68,8 +68,6 @@ namespace _29_11
             opg.Print();
             opg.Birth(1950);
             opg.Birth(1988, 1982);
-
-
         }
     }
  
